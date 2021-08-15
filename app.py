@@ -36,5 +36,5 @@ def handle_message(event):
     get_message = event.message.text
 
     # Send To Line
-    reply = TextSendMessage(text=f"{get_message}"'肥薇')
+    reply = TextSendMessage(text="肥薇生日快樂")
     line_bot_api.reply_message(event.reply_token, reply)
